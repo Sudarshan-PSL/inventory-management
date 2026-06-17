@@ -408,8 +408,8 @@ export default {
       // Filter inventory items to only include those with orders in the selected period
       const categoryMap = {}
 
-      // Use a single neutral slate/gray color for all categories
-      const singleColor = '#64748b' // Neutral slate gray color
+      // Use a single blue color for all categories
+      const singleColor = '#2563eb' // Blue brand color
 
       // Get SKUs from orders in the filtered time period
       const orderedSkus = new Set()
@@ -1138,12 +1138,12 @@ export default {
 
 .task-input:focus {
   outline: none;
-  border-color: #667eea;
+  border-color: #2563eb;
 }
 
 .task-add-btn {
   padding: 0.75rem 1.5rem;
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  background: linear-gradient(135deg, #2563eb 0%, #1d4ed8 100%);
   color: white;
   border: none;
   border-radius: 8px;
@@ -1203,7 +1203,7 @@ export default {
   width: 20px;
   height: 20px;
   cursor: pointer;
-  accent-color: #667eea;
+  accent-color: #2563eb;
 }
 
 .task-text {
