@@ -323,7 +323,7 @@ export default {
 }
 
 .trend-item:hover {
-  background: #f1f5f9;
+  background: #eff6ff;
 }
 
 .item-name {

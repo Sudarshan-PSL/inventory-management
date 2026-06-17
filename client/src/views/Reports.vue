@@ -346,7 +346,7 @@ export default {
 }
 
 .reports-table th {
-  background: #f8fafc;
+  background: #f0f7ff;
   padding: 0.75rem;
   text-align: left;
   font-weight: 600;
@@ -360,7 +360,7 @@ export default {
 }
 
 .reports-table tr:hover {
-  background: #f8fafc;
+  background: #eff6ff;
 }
 
 .chart-container {

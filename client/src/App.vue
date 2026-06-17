@@ -170,7 +170,7 @@ export default {
 
 body {
   font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
-  background: #f8fafc;
+  background: #eff6ff;
   color: #1e293b;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -183,9 +183,9 @@ body {
 }
 
 .top-nav {
-  background: #ffffff;
-  border-bottom: 1px solid #e2e8f0;
-  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.05);
+  background: linear-gradient(135deg, #1e40af 0%, #2563eb 100%);
+  border-bottom: 1px solid #1d4ed8;
+  box-shadow: 0 2px 8px 0 rgba(30, 64, 175, 0.3);
   position: sticky;
   top: 0;
   z-index: 100;
@@ -218,16 +218,16 @@ body {
 .logo h1 {
   font-size: 1.375rem;
   font-weight: 700;
-  color: #0f172a;
+  color: #ffffff;
   letter-spacing: -0.025em;
 }
 
 .subtitle {
   font-size: 0.813rem;
-  color: #64748b;
+  color: rgba(255, 255, 255, 0.75);
   font-weight: 400;
   padding-left: 0.75rem;
-  border-left: 1px solid #e2e8f0;
+  border-left: 1px solid rgba(255, 255, 255, 0.3);
 }
 
 .nav-tabs {
@@ -237,7 +237,7 @@ body {
 
 .nav-tabs a {
   padding: 0.625rem 1.25rem;
-  color: #64748b;
+  color: rgba(255, 255, 255, 0.8);
   text-decoration: none;
   font-weight: 500;
   font-size: 0.938rem;
@@ -247,13 +247,13 @@ body {
 }
 
 .nav-tabs a:hover {
-  color: #0f172a;
-  background: #f1f5f9;
+  color: #ffffff;
+  background: rgba(255, 255, 255, 0.15);
 }
 
 .nav-tabs a.active {
-  color: #2563eb;
-  background: #eff6ff;
+  color: #ffffff;
+  background: rgba(255, 255, 255, 0.2);
 }
 
 .nav-tabs a.active::after {
@@ -263,7 +263,7 @@ body {
   left: 0;
   right: 0;
   height: 2px;
-  background: #2563eb;
+  background: #ffffff;
 }
 
 .main-content {
@@ -377,7 +377,7 @@ table {
 }
 
 thead {
-  background: #f8fafc;
+  background: #f0f7ff;
   border-top: 1px solid #e2e8f0;
   border-bottom: 1px solid #e2e8f0;
 }
@@ -404,7 +404,7 @@ tbody tr {
 }
 
 tbody tr:hover {
-  background: #f8fafc;
+  background: #eff6ff;
 }
 
 .badge {
